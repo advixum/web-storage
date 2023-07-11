@@ -1,0 +1,197 @@
+/* Start */
+body p {
+  text-align: center
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.title {
+  display: inline-block;
+  margin-right: 190px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.user-form {
+  margin-top: 20px;
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.user-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.user-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Main */
+.container-main {
+  margin: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.container-main h3 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+.data-table .ext-column,
+.data-table .date-column,
+.data-table .size-column {
+  width: 130px;
+}
+
+.data-table .action-column {
+  width: 250px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+.data-table th {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.data-table th:hover {
+  background-color: #f2f2f2;
+}
+
+.data-table td {
+  text-align: center;
+}
+
+.data-table input[type="text"] {
+  margin-right: 5px;
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.data-table button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.data-table button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+.data-table button:disabled:hover {
+  background-color: #535353;
+}
+
+.data-table button:hover {
+  background-color: #0056b3;
+}
+
+/* Upload form */
+.upload-form {
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-input {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
